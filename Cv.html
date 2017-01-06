@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tryout</title>
+	</head>
+	<body>
+		<h2 align="center">CV</h2>
+		<fieldset width="100" height="100">
+			<legend>Register</legend>
+			<iframe
+				width="400"
+				height="450"
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95178.2654351313!2d44.82528178784443!3d41.79984931481383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5243c24275efe5c8!2z4YOX4YOR4YOY4YOa4YOY4YOh4YOY4YOhIOGDlOGDoOGDneGDleGDnOGDo-GDmuGDmCDhg57hg5Dhg6Dhg5nhg5g!5e0!3m2!1ska!2sge!4v1483639033327"; output="embed"
+				align="right"
+				frameborder="3"
+				scrolling="yes">
+			</iframe>
+			<p>Name</p><br />
+			<input type="text" name="firstname" /><br />
+			<p>Surname</p><br />
+			<input type="text" name="lastname" /><br />
+			<label>Gender:
+			<input id="female" type="radio" name="gender" value="f" />
+			<label for="female">Female</label>
+			<input id="male" type="radio" name="gender" value="m" />
+			<label for="male">Male</label>
+			</label>
+			<p>Email</p><br />
+			<input type="email" name="email" /><br />
+			<p>Add photo:</p>
+			<input type="file" name="user-photo" /><br />
+			<input type="submit" value="upload" />
+			<p>About You</p><br />
+			<textarea name="comments" cols="30" rows="10"></textarea>
+		</fieldset>
+		<form action="http://www.jobs.ge/CV">
+			<p>I know:</p>
+			<input type="checkbox" name="service" value="English" />English
+			<input type="checkbox" name="service" value="Russian" />Russian
+			<input type="checkbox" name="service" value="others" />Others
+		</form>
+		<form action="http://www.jobs.ge/CV">
+			<p>I am:
+			<input type="radio" name="service" value="1-18" />1-18
+			<input type="radio" name="service" value="18-25" />18-25
+			<input type="radio" name="service" value="25+" />25+
+			</p>
+		</form>
+		<form action="http://www.jobs.ge/CV">
+			<button><img src="http://findicons.com/files/icons/99/office/128/add1.png" alt="add" width="15" height="10">Add CV</button>
+			<input type="hidden" name="bookmark" value="lyrics" />
+		</form>
+		<form>
+			<input type="text" name="username" required="required" placeholder="username"/><br />
+			<input type="password" name="password" required="required" placeholder="password" /><br />			
+		</form>
+	</body>
+</html>
