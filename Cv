@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Tryout</title>
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
 	</head>
 	<body>
 		<h2 align="center">CV</h2>
